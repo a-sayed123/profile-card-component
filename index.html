@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,48 +21,38 @@
   </head>
   <body>
     <main class="main">
-      <article>
-        </div>
-        <div class="card">
-          <div class="card-header">
+      <article class="card">
+        <div class="card__header"></div>
+        <div class="profile">
+          <div class="profile__img">
             <img
-              src="./images/bg-pattern-card.svg"
-              alt="Card img"
-              class="card-img"
+              src="./images/image-victor.jpg"
+              alt="Profile img"
+              class="img__cover"
             />
           </div>
-          <div class="card-content">
-            <div class="profile img">
-              <img src="./images/image-victor.jpg" alt="Profile img" />
-            </div>
-            <h1 class="card-title">Victor Crest</h1>
-            <span class="span">26</span>
-            <p class="card-subtitle">London</p>
-          </div>
-          <div class="card-footer">
-            <ul class="flex-list">
-              <li class="flex-item">
-                <p class="info-amount">80K</p>
-                <span class="info-type">Followers</span>
-              </li>
-              <li class="flex-item">
-                <p class="info-amount">803K</p>
-                <span class="info-type">Likes</span>
-              </li>
-              <li class="flex-item">
-                <p class="info-amount">1.4K</p>
-                <span class="info-type">Photos</span>
-              </li>
-            </ul>
-          </div>
+          <h1 class="profile__name">
+            Victor Crest <span class="profile__age">26</span>
+          </h1>
+          <p class="profile__address">London</p>
+        </div>
+        <div class="card-footer">
+          <ul class="flex__list">
+            <li class="flex__item">
+              <p class="info__amount">80K</p>
+              <span class="info__type">Followers</span>
+            </li>
+            <li class="flex__item">
+              <p class="info__amount">803K</p>
+              <span class="info__type">Likes</span>
+            </li>
+            <li class="flex__item">
+              <p class="info__amount">1.4K</p>
+              <span class="info__type">Photos</span>
+            </li>
+          </ul>
         </div>
       </article>
     </main>
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div> -->
   </body>
 </html>
