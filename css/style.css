@@ -1,0 +1,71 @@
+:root {
+  /* colors */
+  --Blue-600: hsl(185, 75%, 39%);
+  --Navy-950: hsl(229, 23%, 23%);
+  --Gray-500: hsl(227, 10%, 46%);
+  --Gray-100: hsl(225, 10%, 92%);
+  /* font size  */
+  --name-status: 1.8rem;
+  /* font weight */
+  --weight-title: 700;
+  --weight-text: 400;
+}
+
+/* reset */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+img,
+span {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  color: auto;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+   min-height: 100vh;
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   
+   background-color: var(--Blue-600);
+   background-image: url("../images/bg-pattern-top.svg") , url("../images/bg-pattern-bottom.svg");
+   background-repeat: no-repeat;
+   background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+}
+
+.main{
+    position: relative;
+    background-color: white;
+    box-shadow: 0 20px 40px  rgba(0, 0, 0, 0.18) ;
+    border-radius: 19px;
+    margin: auto;
+    align-self: center;
+}
+
+.card .card-header .card-img{
+    border-radius: 19px 19px 0 0 ;
+}
